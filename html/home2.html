@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <!--  list are used to represent real life list data
+    unordered list and ordered list -->
+    <main>
+        <ul>
+            <li>apple</li>
+            <ul>
+                <li>color: red</li>
+            </ul>
+            <li>mango</li>
+            <li>banana</li>
+        </ul>
+        <ol>
+            <li>apple</li>
+            <ul>
+                <li>color: red</li>
+            </ul>
+            <li>mango</li>
+            <li>banana</li>
+        </ol>
+    </main>
+    <hr>
+    <!--  tr - used to display table row -->
+    <!--  td - used to display table data-->
+    <!--  th - used to display table header-->
+    <table>
+        <caption>
+            Student Information
+        </caption>
+        <tr>
+            <th>Name</th>
+            <th>Roll No</th>
+        </tr>
+        <tr>
+            <td>Shubham</td>
+            <td>01</td>
+        </tr>
+    </table>
+    <hr>
+    <!-- thead - to wrap tble head
+         tbody - to wrap table body -->
+    <table>
+        <thead>
+        <caption>
+            Student Information
+        </caption>
+        <tr>
+            <th>Name</th>
+            <th>Roll No</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Shubham</td>
+            <td>01</td>
+        </tr>
+        </tbody>
+    </table>
+    <hr>
+    <!-- forms tag are used to collect data from the user -->
+    <form action="action.php">
+        <input type="text" placeholder="username">
+        <br>
+        <input type="password" placeholder="password">
+        <br>
+        <hr>
+         
+        <h5>Select your class</h5>
+        <label for="101">
+           <input type="radio" value="class X" name="class" id="101">class X
+        </label>
+        <br>
+        <label for="102">
+           <input type="radio" value="class XII" name="class" id="102">class XII
+        </label>
+        <br>
+    </form>
+    <hr>
+    <h5>Select your subject</h5>
+    <label for="math">
+        <input type="checkbox"value="math" name="subject" id="101">math
+    </label>
+    <br>
+    <label for="physics">
+        <input type="checkbox"value="physics" name="subject" id="102">physics
+    </label>
+    <br>
+    <label for="chemistry">
+        <input type="checkbox"value="chemistry" name="subject" id="103">chemistry
+    </label>
+    <br>
+    <label for="computer science">
+        <input type="checkbox"value="computer science" name="subject" id="104">computer science
+    </label>
+    <br><br>
+
+    <select name="city" id="city">
+        <option value="Delhi">Delhi</option>
+        <option value="Jamshedpur">Jamshedpur</option>
+        <option value="Patna">Patna</option>
+        <option value="Mumbai">Mumbai</option>
+    </select>
+    <br><br>
+
+
+
+
+    <form action="action.php">
+        <textarea name="feedback" id="101" placeholder="please give your variable feedback here">Feedback</textarea>
+
+        <input type="submit" value="submit">
+    </form>
+
+</body>
+</html>  
